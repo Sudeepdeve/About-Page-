@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Members</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .team-member {
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+            margin: 10px;
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .team-member:hover {
+            transform: translateY(-10px);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="team-member" onclick="toggleMovement('member1')">
+        <img src="https://edigitalnepal.com/sms/files/student-profile-images/1684491127908-38962fcf-7bc2-4c7b-8027-0ba6d439ef5c.JPG" alt="Team Member 1">
+      <a href="https://sudeepdeve.github.io/Sudeepbiodata/"><h3>Sudeep Lamichhane</h3></a>
+    </div>
+
+    <div class="team-member" onclick="toggleMovement('member2')">
+        <img src="https://scontent.fktm16-1.fna.fbcdn.net/v/t39.30808-6/395584664_122101470848093710_8470792297139631487_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=w3bAtuGsyH0AX_7HKa9&_nc_ht=scontent.fktm16-1.fna&oh=00_AfBVGPs7GiG3caJd4jKQA2xwHkgQ0-miATPkvCGnV5CAgw&oe=65570FB4" alt="Team Member 2">
+       <a href="https://sudeepdeve.github.io/Swroupbiodata-/"> <h3>Swroup Tiwari</h3></a>
+    </div>
+
+    <div class="team-member" onclick="toggleMovement('member3')">
+        <img src="https://scontent.fktm16-1.fna.fbcdn.net/v/t39.30808-6/395540705_122101470794093710_2188316189494441757_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=VK5CC4atnboAX-9-6oz&_nc_ht=scontent.fktm16-1.fna&oh=00_AfBot077TW8SzYnWuPj5mRLOf5cEqhcbw4ws3n8FWT1uGQ&oe=6557FECD" alt="Team Member 3">
+        <a href="https://sudeepdeve.github.io/Saimanbio-/"><h3>Saiman Baniya</h3></a>
+    </div>
+    
+    <div class="team-member" onclick="toggleMovement('member4')">
+        <img src="https://scontent.fktm16-1.fna.fbcdn.net/v/t39.30808-6/400885214_122111109410093710_5960985833327393047_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=v0YmupE_XYgAX-raxnH&_nc_ht=scontent.fktm16-1.fna&oh=00_AfAC1_GKtJOlv5eqkvmg_e143QEeZ3A8nu7DTYgyq4KWjw&oe=65569881" alt="Team Member 4">
+       <a href="#"> <h3>Samyog bhattrai</h3></a>
+    </div>
+    
+    <div class="team-member" onclick="toggleMovement('member5')">
+        <img src="https://edigitalnepal.com/sms/files/student-profile-images/1684491126391-8a5fa6da-ecf4-4c78-8386-0ca7935f3146.JPG" alt="Team Member 5">
+        <a href="https://sudeepdeve.github.io/Nirajanbiodata-/"><h3>Nirajan Ojha</h3></a>
+    </div>
+    <div class="team-member" onclick="toggleMovement('member6')">
+        <img src="https://scontent.fktm16-1.fna.fbcdn.net/v/t39.30808-6/395558051_122101470668093710_4015707315179505975_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vmI6IXr6jnAAX_rPCvv&_nc_ht=scontent.fktm16-1.fna&oh=00_AfBiRM16rpMzKNwstIoBBovoIutWkchZQDmdrjdyqYbetw&oe=65578981" alt="Team Member 6">
+       <a href="https://sudeepdeve.github.io/Nikeshbiodata/"> <h3>Nikesh Banjara</h3></a>
+    </div>
+    <div class="team-member" onclick="toggleMovement('member7')">
+        <img src="https://scontent.fktm16-1.fna.fbcdn.net/v/t39.30808-6/401592334_122111089796093710_527553073867706909_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=UpfXfOGYElEAX_dhKFM&_nc_ht=scontent.fktm16-1.fna&oh=00_AfCfrgslNER6iz9G_igBEae7l_MUlz3rqkPrHGup1aYuNQ&oe=6557F731" alt="Team Member 7">
+      <a href="https://sudeepdeve.github.io/rupam-biodata-/">  <h3>Rupam Gywali</h3></a>
+    </div>
+    <div class="team-member" onclick="toggleMovement('member8')">
+        <img src="https://edigitalnepal.com/sms/files/student-profile-images/1684491125583-86a1c3c4-80f9-4ffa-9778-06f10b9ea532.JPG" alt="Team Member 8">
+        <a href="https://sudeepdeve.github.io/Darshanbiodata-/"><h3>Darshan Tiwari</h3></a>
+    </div><div class="team-member" onclick="toggleMovement('member 9')">
+        <img src="https://scontent.fktm16-1.fna.fbcdn.net/v/t39.30808-6/399270946_122109583934093710_7925168127078886351_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=smAd9ptfENMAX_G4j4w&_nc_ht=scontent.fktm16-1.fna&oh=00_AfDoo4HYIKDayJW0V4Z1urDvei04lIi5DmmWwB06OkCUUw&oe=6557B3B1" alt="Team Member 9 ">
+        <a href="https://sudeepdeve.github.io/Adarsha-biodata-/"><h3>Aadarsha Bhandari</h3></a>
+    </div>
+
+
+
+    <script>
+        function toggleMovement(memberId) {
+            const member = document.querySelector(`.${memberId}`);
+            member.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
