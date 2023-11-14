@@ -11,6 +11,7 @@
             align-items: center;
             height: 100vh;
             background-color: #f4f4f4;
+            text-align: end;
         }
 
         .team-member {
@@ -30,6 +31,7 @@
         .team-member:hover {
             transform: translateY(-10px);
         }
+       
     </style>
 </head>
 <body>
@@ -73,9 +75,10 @@
         <img src="https://scontent.fktm16-1.fna.fbcdn.net/v/t39.30808-6/399270946_122109583934093710_7925168127078886351_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=smAd9ptfENMAX_G4j4w&_nc_ht=scontent.fktm16-1.fna&oh=00_AfDoo4HYIKDayJW0V4Z1urDvei04lIi5DmmWwB06OkCUUw&oe=6557B3B1" alt="Team Member 9 ">
         <a href="https://sudeepdeve.github.io/Adarsha-biodata-/"><h3>Aadarsha Bhandari</h3></a>
     </div>
-
-
-
+</div><div class="team-member" onclick="toggleMovement('member 10')">
+    <img src="https://scontent.fktm16-1.fna.fbcdn.net/v/t39.30808-6/401839955_122111370014093710_4129790382190467835_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=r3Q8qSEeDlIAX8ogRp3&_nc_ht=scontent.fktm16-1.fna&oh=00_AfBCgtLBFcGUn0zBqPebP_LUWZODaQdA7xwaK-2jiyCmxQ&oe=6559347A" alt="Team Member 10 ">
+    <a href="https://sudeepdeve.github.io/Homepage-/"><h3>Back To HomePage<--</h3></a>
+</div>
     <script>
         function toggleMovement(memberId) {
             const member = document.querySelector(`.${memberId}`);
